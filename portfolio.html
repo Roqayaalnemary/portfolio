@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roqaya Al Nemary — مطوّرة Full Stack | أخصائية دعم فني</title>
+  <meta name="description" content="" />
+  <meta name="theme-color" content="#060a16" />
+  <script>
+    /* Set language + direction before first paint (no flash). Arabic is the default. */
+    (function () {
+      var l = 'ar';
+      try { var s = localStorage.getItem('portfolio-lang'); if (s === 'en' || s === 'ar') l = s; } catch (e) {}
+      var d = document.documentElement;
+      d.lang = l; d.dir = l === 'ar' ? 'rtl' : 'ltr'; d.className = 'js';
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip"></a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" data-i18n-attr="aria-label:a11y.logo"><bdi dir="ltr">roqaya<span>.dev</span></bdi></a>
+
+      <nav class="site-nav" id="site-nav" data-i18n-attr="aria-label:a11y.nav">
+        <ul>
+          <li><a href="#home" data-i18n="nav.home"></a></li>
+          <li><a href="#about" data-i18n="nav.about"></a></li>
+          <li><a href="#experience" data-i18n="nav.experience"></a></li>
+          <li><a href="#skills" data-i18n="nav.skills"></a></li>
+          <li><a href="#projects" data-i18n="nav.projects"></a></li>
+          <li><a href="#education" data-i18n="nav.education"></a></li>
+          <li><a href="#contact" data-i18n="nav.contact"></a></li>
+        </ul>
+      </nav>
+
+      <div class="header-tools">
+        <div class="lang-switch" role="group" data-i18n-attr="aria-label:a11y.lang">
+          <button type="button" data-lang="ar" lang="ar">العربية</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button type="button" data-lang="en" lang="en">English</button>
+        </div>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" data-i18n-attr="aria-label:a11y.menuOpen">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="bars" d="M4 7h16M4 12h16M4 17h16"/><path class="cross" d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span data-i18n="hero.location"></span>
+          </p>
+          <p class="hero-hello" data-i18n="hero.hello"></p>
+          <h1 class="hero-name"><bdi dir="ltr" class="gradient-text">Roqaya Al Nemary</bdi></h1>
+          <p class="hero-headline" data-i18n="hero.headline"></p>
+          <p class="hero-intro" data-i18n="hero.intro"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects"><span data-i18n="hero.projects"></span></a>
+            <a class="btn btn-ghost" href="#experience"><span data-i18n="hero.experience"></span></a>
+            <a class="btn btn-ghost" id="cv-btn" href="#" download hidden><span data-i18n="hero.cv"></span></a>
+            <a class="btn btn-ghost" href="#contact"><span data-i18n="hero.contact"></span></a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img id="hero-photo" src="assets/img/roqaya.webp" width="720" height="863" alt="" data-i18n-attr="alt:a11y.photoAlt" fetchpriority="high" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow"></p>
+          <h2 data-i18n="about.title"></h2>
+        </header>
+        <div class="about-grid reveal">
+          <p class="about-text" data-i18n="about.text"></p>
+          <aside class="card facts">
+            <h3 data-i18n="about.factsTitle"></h3>
+            <dl>
+              <div><dt data-i18n="about.location"></dt><dd data-i18n="about.locationValue"></dd></div>
+              <div><dt data-i18n="about.background"></dt><dd data-i18n="about.backgroundValue"></dd></div>
+              <div><dt data-i18n="about.degree"></dt><dd data-i18n="about.degreeValue"></dd></div>
+            </dl>
+            <h3 class="mt" data-i18n="about.interestsTitle"></h3>
+            <ul class="chips">
+              <li class="chip" data-i18n="about.i1"></li>
+              <li class="chip" data-i18n="about.i2"></li>
+              <li class="chip" data-i18n="about.i3"></li>
+              <li class="chip" data-i18n="about.i4"></li>
+              <li class="chip" data-i18n="about.i5"></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="exp.eyebrow"></p>
+          <h2 data-i18n="exp.title"></h2>
+          <p class="section-sub" data-i18n="exp.subtitle"></p>
+        </header>
+        <ol class="timeline reveal" id="experience-list"></ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="skills.eyebrow"></p>
+          <h2 data-i18n="skills.title"></h2>
+          <p class="section-sub" data-i18n="skills.subtitle"></p>
+        </header>
+        <div class="skills-grid reveal" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="projects.eyebrow"></p>
+          <h2 data-i18n="projects.title"></h2>
+          <p class="section-sub" data-i18n="projects.subtitle"></p>
+        </header>
+        <div class="projects reveal" id="projects-list"></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section id="education" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="edu.eyebrow"></p>
+          <h2 data-i18n="edu.title"></h2>
+          <p class="section-sub" data-i18n="edu.subtitle"></p>
+        </header>
+        <h3 class="sub-heading" data-i18n="edu.educationHeading"></h3>
+        <div class="edu-grid reveal" id="education-list"></div>
+        <h3 class="sub-heading" data-i18n="edu.certHeading"></h3>
+        <div class="cert-grid reveal" id="cert-list"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+          <h2 data-i18n="contact.title"></h2>
+          <p class="section-sub" data-i18n="contact.text"></p>
+          <ul class="contact-links" id="contact-links"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><span dir="ltr">© <span id="year"></span> Roqaya Al Nemary</span> — <span data-i18n="footer.rights"></span></p>
+    </div>
+  </footer>
+
+  <noscript><p class="noscript">This site needs JavaScript to display its content.</p></noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
