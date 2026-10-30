@@ -69,6 +69,8 @@ window.I18N = {
     'skills.title': 'المهارات التقنية',
     'skills.subtitle': 'التقنيات والأدوات المرتبطة بخبرتي وتدريبي ومشاريعي.',
 
+    'orbit.caption': 'تقنيات مرتبطة بخبرتي وتدريبي ومشاريعي — مرّري المؤشر فوق أي كوكب.',
+
     'projects.eyebrow': 'أعمال منفّذة',
     'projects.title': 'المشاريع',
     'projects.subtitle': 'مشاريع برمجية تعكس ما أتعلمه وأطبّقه.',
@@ -158,6 +160,8 @@ window.I18N = {
     'skills.eyebrow': 'Tools & technologies',
     'skills.title': 'Technical Skills',
     'skills.subtitle': 'Technologies and tools connected to my experience, training, and projects.',
+
+    'orbit.caption': 'Technologies connected to my experience, training, and projects — hover over any planet.',
 
     'projects.eyebrow': 'Selected work',
     'projects.title': 'Projects',

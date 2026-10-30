@@ -104,7 +104,7 @@
         return '<a class="btn btn-ghost btn-sm" href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' + esc(tr(l.label)) + ' ' + ICON.external + '<span class="sr-only"> (' + esc(ui('a11y.external')) + ')</span></a>';
       }).join('');
       return '<article class="card project' + (p.featured ? ' featured' : '') + '">' +
-        (p.image ? '<div class="project-media"><img src="' + esc(p.image) + '" alt="' + esc(tr(p.alt)) + '" loading="lazy" width="1400" height="716" /></div>' : '') +
+        (p.image ? '<div class="project-media"><img src="' + esc(p.image) + '" alt="' + esc(tr(p.alt)) + '" loading="lazy" width="' + (p.imgW || 1400) + '" height="' + (p.imgH || 716) + '" /></div>' : '') +
         '<div class="project-body">' +
           '<div class="badges">' + (p.featured ? '<span class="badge badge-featured">' + esc(ui('projects.featured')) + '</span>' : '') +
           '<span class="badge badge-type">' + esc(tr(p.type)) + '</span></div>' +

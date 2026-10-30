@@ -116,21 +116,21 @@ window.PORTFOLIO = {
         en: 'A task management application designed to organize tasks and workflows. The project involves frontend and backend development, data handling, API integration, and JWT-based authentication.'
       },
       tech: ['React', 'JavaScript', 'Node.js', 'Django', 'JWT', 'JSON', 'APIs'],
-      image: 'assets/img/task-login.webp',
+      image: 'assets/img/task-login.webp', imgW: 1400, imgH: 716,
       alt: { ar: 'شاشة تسجيل الدخول في تطبيق إدارة المهام', en: 'Login screen of the Task Management Application' },
       links: []
     },
     {
-      // Existing project from the old version of the site. Kept here but hidden,
-      // because its details (Unity, Computer Vision) and link were not verified.
       id: 'chinese-ar',
-      hidden: true,
       type: { ar: 'تطبيق واقع معزز', en: 'Augmented Reality App' },
-      title: { ar: 'تطبيق الصينية بالواقع المعزز', en: 'Chinese Language AR App' },
-      description: { ar: '', en: '' },
-      tech: ['C#'],
-      image: 'chinese.jpg',
-      alt: { ar: '', en: '' },
+      title: { ar: 'تطبيق تعلّم اللغة الصينية بالواقع المعزز', en: 'Chinese Language AR App' },
+      description: {
+        ar: 'تطبيق واقع معزز لتعلّم اللغة الصينية، مبني باستخدام C# وأطر الواقع المعزز. وجّهي الكاميرا نحو ما حولك وتعلّمي اللغة داخل سياقها الحقيقي.',
+        en: 'An augmented reality application for learning Chinese, built with C# and AR frameworks. Point your camera at the world and learn the language in context.'
+      },
+      tech: ['C#', 'AR', 'Unity', 'Computer Vision'],
+      image: 'assets/img/chinese-ar.webp', imgW: 621, imgH: 284,
+      alt: { ar: 'واجهة تطبيق تعلّم اللغة الصينية بالواقع المعزز', en: 'Interface of the Chinese Language AR App' },
       links: []
     }
   ],
