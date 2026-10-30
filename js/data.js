@@ -129,7 +129,7 @@ window.PORTFOLIO = {
         en: 'An augmented reality application for learning Chinese, built with C# and AR frameworks. Point your camera at the world and learn the language in context.'
       },
       tech: ['C#', 'AR', 'Unity', 'Computer Vision'],
-      image: 'assets/img/chinese-ar.webp', imgW: 621, imgH: 284,
+      image: 'chinese.jpg', imgW: 621, imgH: 284,
       alt: { ar: 'واجهة تطبيق تعلّم اللغة الصينية بالواقع المعزز', en: 'Interface of the Chinese Language AR App' },
       links: []
     }
